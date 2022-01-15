@@ -4,7 +4,16 @@
   let url = ''
 </script>
 
-<header />
+<header>
+  <div class="flex items-center justify-between">
+    <p class="text-3xl font-medium text-white uppercase font-antonio">
+      THE PLANETS
+    </p>
+    <button>
+      <img src="/assets/icon-hamburger.svg" alt="menu" />
+    </button>
+  </div>
+</header>
 <nav />
 <main class="font-spartan" />
 <footer />
@@ -25,5 +34,15 @@
   @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Spartan:wght@400;700&display=swap');
   :root {
     font-size: 16px;
+    width: 100%;
+    height: 100%;
+  }
+  :global(body) {
+    width: inherit;
+    height: inherit;
+  }
+  :global(#app) {
+    width: 375px;
+    height: inherit;
   }
 </style>
