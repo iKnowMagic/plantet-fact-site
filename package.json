@@ -9,7 +9,8 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
+    "component": "plop component"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
@@ -18,10 +19,13 @@
     "@typescript-eslint/parser": "^4.31.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sonarjs": "^0.11.0",
     "eslint-plugin-standard": "^5.0.0",
     "eslint-plugin-svelte3": "^3.2.1",
+    "plop": "^3.0.5",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
     "sass": "^1.48.0",
@@ -34,6 +38,7 @@
     "vite-plugin-windicss": "^1.6.2"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "svelte-routing": "^1.6.0"
   }
 }

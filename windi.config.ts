@@ -17,5 +17,8 @@ export default defineConfig({
         base: '16px'
       }
     }
+  },
+  shortcuts: {
+    'hover-transition': 'transition-colors ease-in duration-150'
   }
 })

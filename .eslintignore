@@ -1,0 +1,4 @@
+dist/
+.history/
+*.snippet
+*.hbs
